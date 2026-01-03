@@ -1,0 +1,49 @@
+/* RESET BIAR STABIL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FOOTER */
+footer {
+  background-color: #5b1f0f;
+  padding: 40px 20px;
+}
+
+/* CONTAINER */
+.footer-container {
+  display: flex;
+  justify-content: space-evenly; /* ⬅️ KUNCI ANTI GESER */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ITEM */
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  min-width: 200px; /* ⬅️ BIAR POSISI STABIL */
+}
+
+/* ICON */
+.footer-icon {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 8px;
+}
+
+/* TITLE */
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* TEXT */
+.footer-text {
+  font-size: 14px;
+}
